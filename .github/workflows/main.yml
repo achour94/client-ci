@@ -1,0 +1,9 @@
+name: Client Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  use-parent-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: achour94/parent-ci/.github/workflows/test.yml@v1
