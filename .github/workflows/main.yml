@@ -4,4 +4,4 @@ on:
 
 jobs:
   use-parent-action:
-    uses: achour94/parent-ci/.github/workflows/test.yml@v1
+    uses: achour94/parent-ci/.github/workflows/test.yml@v1.0.0
